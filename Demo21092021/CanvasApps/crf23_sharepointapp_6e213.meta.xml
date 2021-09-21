@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>crf23_sharepointapp_6e213</Name>
+  <AppVersion>2021-09-20T11:16:16Z</AppVersion>
+  <Status>NotReady</Status>
+  <CreatedByClientVersion>3.21091.38.0</CreatedByClientVersion>
+  <MinClientVersion>3.21091.38.0</MinClientVersion>
+  <Tags>{"sp-site-id":"https://volvogroup.sharepoint.com/sites/proj-coe_dev","sp-list-id":"37079a07-adf8-442c-a38d-95235e781a6a","https://volvogroup.sharepoint.com/sites/proj-coe_dev":"37079a07-adf8-442c-a38d-95235e781a6a","primaryDeviceWidth":"640","primaryDeviceHeight":"1136","sienaVersion":"9170f6c4-3e3b-4d11-9d3f-9b4c726b3b81","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Phone","publisherVersion":"3.21091.38","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>rgba(0, 176, 240, 1)</BackgroundColor>
+  <DisplayName>SharePoint App</DisplayName>
+  <Description xsi:nil="true"></Description>
+  <CommitMessage xsi:nil="true"></CommitMessage>
+  <Publisher xsi:nil="true"></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{"8d8e504a-5565-4971-90d9-973075ef3f4d":{"id":"/providers/microsoft.powerapps/apis/shared_sharepointonline","displayName":"SharePoint","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1487/1.0.1487.2472/sharepointonline/icon.png","dataSources":["SharePoint_List"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{"https://volvogroup.sharepoint.com/sites/proj-coe_dev":{"datasetOverride":{"environmentVariableName":"crf23_SharePoint_Site"},"dataSources":{"SharePoint_List":{"tableName":"37079a07-adf8-442c-a38d-95235e781a6a","tableNameOverride":{"environmentVariableName":"crf23_SharePoint_List"}}}}},"apiTier":"Standard","actions":["providers/PowerPlatform.Governance/Operations/Read","providers/PowerPlatform.Governance/Operations/Write"]}}</ConnectionReferences>
+  <DatabaseReferences>{}</DatabaseReferences>
+  <AppComponents>[]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>1</CanConsumeAppPass>
+  <CanvasAppType>0</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"logicalname":"crf23_SharePoint_Site","componenttype":380},{"logicalname":"crf23_SharePoint_List","componenttype":380}]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/crf23_sharepointapp_6e213_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/crf23_sharepointapp_6e213_DocumentUri.msapp</DocumentUri>
+</CanvasApp>
